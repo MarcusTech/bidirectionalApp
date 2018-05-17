@@ -43,7 +43,7 @@
 
     <div class="account-body">
 
-      <h3 class="account-body-title">Password Reset</h3>
+      <h3 class="account-body-title"> Reset Password</h3>
 
       <h5 class="account-body-subtitle">We'll email you instructions on how to reset your password.</h5>
 
