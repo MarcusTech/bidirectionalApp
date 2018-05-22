@@ -863,9 +863,9 @@ input[type="checkbox"] {
 .navbar {
   position: relative;
   z-index: 501;
-  min-height: 60px;
+  min-height: 80px;
   margin-bottom: 0;
-  background-color: #222222;
+  background-color: #fff;
   border: none;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
@@ -909,7 +909,7 @@ input[type="checkbox"] {
   background-color: #333333;
 }
 .navbar .navbar-collapse {
-  background: #222222;
+  background: #fff;
 }
 .navbar .navbar-collapse,
 .navbar .navbar-form {
@@ -919,8 +919,8 @@ input[type="checkbox"] {
 .navbar .navbar-nav > .open > a:hover,
 .navbar .navbar-nav > .open > a:focus {
   color: #ffffff;
-  background-color: #080808;
-  background-color: #1b1b1b;
+  background-color: #ffffff;
+  background-color: #ffffff;
 }
 .navbar .navbar-link {
   color: #999999;

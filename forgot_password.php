@@ -38,7 +38,7 @@
 <div class="account-wrapper">
 
   <div class="logo">
-    <img src="./img/cisco-logo.png">
+    <img src="./img/logo.png">
   </div>
 
     <div class="account-body">

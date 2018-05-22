@@ -30,7 +30,7 @@
 <div class="account-wrapper">
 
   <div class="logo">
-    <img src="./img/cisco-logo.png">
+    <img src="./img/logo.png">
   </div>
 
     <div class="account-body">
@@ -39,7 +39,7 @@
 
       <h5 class="account-body-subtitle">SIGN IN</h5>
 
-      <form class="form account-form" method="POST" action="./index.html">
+      <form class="form account-form" method="POST" action="./modules.php/">
 
         <div class="form-group">
           <label for="login-username" class="placeholder-hidden">Username</label>
