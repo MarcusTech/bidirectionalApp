@@ -39,7 +39,7 @@
 
 
   <div class="logo">
-    <img src="./img/cisco-logo.png">
+    <img src="./img/logo.png">
   </div>
 
 

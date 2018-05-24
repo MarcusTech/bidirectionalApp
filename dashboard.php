@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-  <title>Cisco | Modules</title>
+  <title>Cisco | Dashboard</title>
 
   <meta charset="utf-8">
   <meta name="description" content="">
@@ -17,11 +17,15 @@
   <link rel="stylesheet" href="../css/bootstrap.min.css">
 
   <!-- Plugin CSS -->
+  <link rel="stylesheet" href="../js/plugins/morris/morris.css">
   <link rel="stylesheet" href="../js/plugins/icheck/skins/minimal/blue.css">
+  <link rel="stylesheet" href="../js/plugins/select2/select2.css">
+  <link rel="stylesheet" href="../js/plugins/fullcalendar/fullcalendar.css">
 
   <!-- App CSS -->
   <link rel="stylesheet" href="../css/target-admin.css">
   <link rel="stylesheet" href="../css/custom.css">
+
 
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -125,270 +129,188 @@
 
 
  <!-- /.content-header -->
+ <h3>Welcome</h3>
+
+           <div class="well">
+             <h4>Welcome,</h4>
+             Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.Integer molestie lorem at massa Integer molestie lorem at massa Integer molestie lorem at massa Integer molestie lorem at massa.
+             Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.Integer molestie lorem at massa Integer molestie lorem at massa Integer molestie lorem at massa Integer molestie lorem at massa.Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.Integer molestie lorem at massa Integer molestie lorem at massa Integer molestie lorem at massa Integer molestie lorem at massa.Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.Integer molestie lorem at massa Integer molestie lorem at massa Integer molestie lorem at massa Integer molestie lorem at massa.
+           </div>
 
 
 
-      <div class="row">
-
-        <div class="col-md-12">
-
-          <div class="portlet">
-
-            <div class="portlet-header">
-
-              <h3>
-                <i class="fa fa-table"></i>
-                Modules
-              </h3>
-
-            </div> <!-- /.portlet-header -->
-
-            <div class="portlet-content">
-
-              <div class="table-responsive">
-
-              <table
-                class="table table-striped table-bordered table-hover table-highlight table-checkable"
-                data-provide="datatable"
-                data-display-rows="10"
-                data-info="true"
-                data-search="true"
-                data-length-change="true"
-                data-paginate="true"
-              >
-                  <thead>
-                    <tr>
-                      <th class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </th>
-                      <th data-filterable="true" data-sortable="true" data-direction="desc">Rendering engine</th>
-                      <th data-direction="asc" data-filterable="true" data-sortable="true">Browser</th>
-                      <th data-filterable="true" data-sortable="true">Platform(s)</th>
-                      <th data-filterable="false" class="hidden-xs hidden-sm">Engine version</th>
-                      <th data-filterable="true" class="hidden-xs hidden-sm">CSS grade</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Trident</td>
-                      <td>Internet
-                        Explorer 5.0
-                      </td>
-                      <td>Win 95+</td>
-                      <td class="hidden-xs hidden-sm">5</td>
-                      <td class="hidden-xs hidden-sm">C</td>
-                    </tr>
-                    <tr >
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Trident</td>
-                      <td>Internet
-                        Explorer 5.5
-                      </td>
-                      <td>Win 95+</td>
-                      <td class="hidden-xs hidden-sm">5.5</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr >
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Trident</td>
-                      <td>Internet
-                        Explorer 6
-                      </td>
-                      <td>Win 98+</td>
-                      <td class="hidden-xs hidden-sm">6</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr >
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Trident</td>
-                      <td>Internet Explorer 7</td>
-                      <td>Win XP SP2+</td>
-                      <td class="hidden-xs hidden-sm">7</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr >
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Trident</td>
-                      <td>AOL browser (AOL desktop)</td>
-                      <td>Win XP</td>
-                      <td class="hidden-xs hidden-sm">6</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr class="">
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Misc</td>
-                      <td>NetFront 3.1</td>
-                      <td>Embedded devices</td>
-                      <td class="hidden-xs hidden-sm">-</td>
-                      <td class="hidden-xs hidden-sm">C</td>
-                    </tr>
-                    <tr class="">
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Misc</td>
-                      <td>NetFront 3.4</td>
-                      <td>Embedded devices</td>
-                      <td class="hidden-xs hidden-sm">-</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr >
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Gecko</td>
-                      <td>Firefox 2.0</td>
-                      <td>Win 98+ / OSX.2+</td>
-                      <td class="hidden-xs hidden-sm">1.8</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr >
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Gecko</td>
-                      <td>Firefox 3.0</td>
-                      <td>Win 2k+ / OSX.3+</td>
-                      <td class="hidden-xs hidden-sm">1.9</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr >
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Gecko</td>
-                      <td>Camino 1.0</td>
-                      <td>OSX.2+</td>
-                      <td class="hidden-xs hidden-sm">1.8</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr >
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Gecko</td>
-                      <td>Camino 1.5</td>
-                      <td>OSX.3+</td>
-                      <td class="hidden-xs hidden-sm">1.8</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr >
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Gecko</td>
-                      <td>Netscape 7.2</td>
-                      <td>Win 95+ / Mac OS 8.6-9.2</td>
-                      <td class="hidden-xs hidden-sm">1.7</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr>
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Presto</td>
-                      <td>Nokia N800</td>
-                      <td>N800</td>
-                      <td class="hidden-xs hidden-sm">-</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr>
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Presto</td>
-                      <td>Nintendo DS browser</td>
-                      <td>Nintendo DS</td>
-                      <td class="hidden-xs hidden-sm">8.5</td>
-                      <td class="hidden-xs hidden-sm">C/A</td>
-                    </tr>
-                    <tr>
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>KHTML</td>
-                      <td>Konqureror 3.1</td>
-                      <td>KDE 3.1</td>
-                      <td class="hidden-xs hidden-sm">3.1</td>
-                      <td class="hidden-xs hidden-sm">C</td>
-                    </tr>
-                    <tr>
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>KHTML</td>
-                      <td>Konqureror 3.3</td>
-                      <td>KDE 3.3</td>
-                      <td class="hidden-xs hidden-sm">3.3</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr class="">
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Webkit</td>
-                      <td>Safari 1.2</td>
-                      <td>OSX.3</td>
-                      <td class="hidden-xs hidden-sm">125.5</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr class="">
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Webkit</td>
-                      <td>Safari 1.3</td>
-                      <td>OSX.3</td>
-                      <td class="hidden-xs hidden-sm">312.8</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr class="">
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Webkit</td>
-                      <td>Safari 2.0</td>
-                      <td>OSX.4+</td>
-                      <td class="hidden-xs hidden-sm">419.3</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr class="">
-                      <td class="checkbox-column">
-                        <input type="checkbox" class="icheck-input">
-                      </td>
-                      <td>Webkit</td>
-                      <td>Safari 3.0</td>
-                      <td>OSX.4+</td>
-                      <td class="hidden-xs hidden-sm">522.1</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div> <!-- /.table-responsive -->
 
 
-            </div> <!-- /.portlet-content -->
+ <div class="row">
 
-          </div> <!-- /.portlet -->
+         <div class="col-md-12">
+
+           <div class="portlet">
+
+             <div class="portlet-header">
+
+               <h3>
+                 <i class="fa fa-bar-chart-o"></i>
+                 Performance Overview(MGMT)/ Current Module (Facilitator)
+               </h3>
+
+             </div> <!-- /.portlet-header -->
+
+             <div class="portlet-content">
+
+               <div class="pull-left">
+                 <div class="btn-group" data-toggle="buttons">
+                   <label class="btn btn-sm btn-default">
+                     <input type="radio" name="options" id="option1"> Day
+                   </label>
+                   <label class="btn btn-sm btn-default">
+                     <input type="radio" name="options" id="option2"> Week
+                   </label>
+                   <label class="btn btn-sm btn-default active">
+                     <input type="radio" name="options" id="option3"> Month
+                   </label>
+                 </div>
+
+                 &nbsp;
+
+                 <div class="btn-group">
+                   <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+                     Custom Date
+                     <span class="caret"></span>
+                   </button>
+                   <ul class="dropdown-menu">
+                     <li><a href="javascript:;">Year</a></li>
+                     <li><a href="javascript:;">Month</a></li>
+                   </ul>
+                 </div>
+               </div> <!-- /.pull-left -->
+
+               <div class="pull-right">
+                 <div class="btn-group">
+                   <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+                     <i class="fa fa-cog"></i> &nbsp;&nbsp;<span class="caret"></span>
+                   </button>
+                   <ul class="dropdown-menu pull-right" role="menu">
+                     <li><a href="javascript:;">Action</a></li>
+                     <li><a href="javascript:;">Another action</a></li>
+                     <li><a href="javascript:;">Something else here</a></li>
+                     <li class="divider"></li>
+                     <li><a href="javascript:;">Separated link</a></li>
+                   </ul>
+                 </div>
+               </div> <!-- /.pull-right -->
+
+               <div class="clear"></div>
+
+               <hr />
+
+
+               <div id="area-chart" class="chart-holder"></div> <!-- /#area-chart -->
 
 
 
-        </div> <!-- /.col -->
 
-      </div> <!-- /.row -->
+               <div class="table-responsive hide">
+                 <table class="table table-striped">
+                   <thead>
+                     <tr>
+                       <th>Performance</th>
+                       <th class="text-right" style="width: 100px">Items</th>
+                       <th class="text-right" style="width: 100px">Amount</th>
+                       <th style="width: 130px"></th>
+                     </tr>
+                   </thead>
+                   <tbody>
+                     <tr>
+                       <td>09/21/2013</td>
+                       <td class="text-right">3</td>
+                       <td class="text-right">$108.35</td>
+                       <td class="text-center">
+                         <a href="javascript:;" class="btn btn-xs btn-secondary">View</a>
+                         <a href="javascript:;" class="btn btn-xs btn-default">Edit</a>
+                       </td>
+                     </tr>
+                     <tr>
+                       <td>09/21/2013</td>
+                       <td class="text-right">1</td>
+                       <td class="text-right">$30.89</td>
+                       <td class="text-center">
+                         <a href="javascript:;" class="btn btn-xs btn-secondary">View</a>
+                         <a href="javascript:;" class="btn btn-xs btn-default">Edit</a>
+                       </td>
+                     </tr>
+                     <tr>
+                       <td>09/20/2013</td>
+                       <td class="text-right">2</td>
+                       <td class="text-right">$52.06</td>
+                       <td class="text-center">
+                         <a href="javascript:;" class="btn btn-xs btn-secondary">View</a>
+                         <a href="javascript:;" class="btn btn-xs btn-default">Edit</a>
+                       </td>
+                     </tr>
+                     <tr>
+                       <td>09/19/2013</td>
+                       <td class="text-right">4</td>
+                       <td class="text-right">$73.54</td>
+                       <td class="text-center">
+                         <a href="javascript:;" class="btn btn-xs btn-secondary">View</a>
+                         <a href="javascript:;" class="btn btn-xs btn-default">Edit</a>
+                       </td>
+                     </tr>
+                     <tr>
+                       <td>09/19/2013</td>
+                       <td class="text-right">4</td>
+                       <td class="text-right">$73.54</td>
+                       <td class="text-center">
+                         <a href="javascript:;" class="btn btn-xs btn-secondary">View</a>
+                         <a href="javascript:;" class="btn btn-xs btn-default">Edit</a>
+                       </td>
+                     </tr>
+                     <tr>
+                       <td>09/19/2013</td>
+                       <td class="text-right">4</td>
+                       <td class="text-right">$73.54</td>
+                       <td class="text-center">
+                         <a href="javascript:;" class="btn btn-xs btn-secondary">View</a>
+                         <a href="javascript:;" class="btn btn-xs btn-default">Edit</a>
+                       </td>
+                     </tr>
+                     <tr>
+                       <td>09/19/2013</td>
+                       <td class="text-right">4</td>
+                       <td class="text-right">$73.54</td>
+                       <td class="text-center">
+                         <a href="javascript:;" class="btn btn-xs btn-secondary">View</a>
+                         <a href="javascript:;" class="btn btn-xs btn-default">Edit</a>
+                       </td>
+                     </tr>
+                   </tbody>
+                 </table>
+               </div> <!-- /.table-responsive -->
+
+             </div> <!-- /.portlet-content -->
+
+           </div> <!-- /.portlet -->
+
+
+ <!-- /.portlet -->
+
+
+
+ <!-- /.portlet -->
+
+
+
+
+
+
+
+
+
+           <!-- /.portlet -->
+
+
+         </div> <!-- /.col --> <!-- /.row -->
 
 
 
@@ -429,22 +351,32 @@
 
 </footer>
 
-  <script src="../js/libs/jquery-1.10.1.min.js"></script>
-  <script src="../js/libs/jquery-ui-1.9.2.custom.min.js"></script>
-  <script src="../js/libs/bootstrap.min.js"></script>
+<script src="../js/libs/jquery-1.10.1.min.js"></script>
+<script src="../js/libs/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="../js/libs/bootstrap.min.js"></script>
 
-  <!--[if lt IE 9]>
-  <script src="./js/libs/excanvas.compiled.js"></script>
-  <![endif]-->
+<!--[if lt IE 9]>
+<script src="./js/libs/excanvas.compiled.js"></script>
+<![endif]-->
 
-  <!-- Plugin JS -->
-  <script src="../js/plugins/datatables/jquery.dataTables.min.js"></script>
-  <script src="../js/plugins/datatables/DT_bootstrap.js"></script>
-  <script src="../js/plugins/tableCheckable/jquery.tableCheckable.js"></script>
-  <script src="../js/plugins/icheck/jquery.icheck.min.js"></script>
+<!-- Plugin JS -->
+<script src="../js/plugins/icheck/jquery.icheck.js"></script>
+<script src="../js/plugins/select2/select2.js"></script>
+<script src="../js/libs/raphael-2.1.2.min.js"></script>
+<script src="../js/plugins/morris/morris.min.js"></script>
+<script src="../js/plugins/sparkline/jquery.sparkline.min.js"></script>
+<script src="../js/plugins/nicescroll/jquery.nicescroll.min.js"></script>
+<script src="../js/plugins/fullcalendar/fullcalendar.min.js"></script>
 
-  <!-- App JS -->
-  <script src="../js/target-admin.js"></script>
+<!-- App JS -->
+<script src="../js/target-admin.js"></script>
+
+<!-- Plugin JS -->
+<script src="../js/demos/dashboard.js"></script>
+<script src="../js/demos/calendar.js"></script>
+<script src="../js/demos/charts/morris/area.js"></script>
+<script src="../js/demos/charts/morris/donut.js"></script>
+
 
 
 

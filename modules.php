@@ -7,21 +7,21 @@
   <title>Cisco | Modules</title>
 
   <meta charset="utf-8">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
+ <meta name="description" content="">
+ <meta name="viewport" content="width=device-width">
 
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300,700">
-  <link rel="stylesheet" href="../css/font-awesome.min.css">
-  <link rel="stylesheet" href="../js/libs/css/ui-lightness/jquery-ui-1.9.2.custom.min.css">
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
+ <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700">
+ <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300,700">
+ <link rel="stylesheet" href="../css/font-awesome.min.css">
+ <link rel="stylesheet" href="../js/libs/css/ui-lightness/jquery-ui-1.9.2.custom.min.css">
+ <link rel="stylesheet" href="../css/bootstrap.min.css">
 
-  <!-- Plugin CSS -->
-  <link rel="stylesheet" href="../js/plugins/icheck/skins/minimal/blue.css">
+ <!-- Plugin CSS -->
+ <link rel="stylesheet" href="../js/plugins/icheck/skins/minimal/blue.css">
 
-  <!-- App CSS -->
-  <link rel="stylesheet" href="../css/target-admin.css">
-  <link rel="stylesheet" href="../css/custom.css">
+ <!-- App CSS -->
+ <link rel="stylesheet" href="../css/target-admin.css">
+ <link rel="stylesheet" href="../css/custom.css">
 
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -159,177 +159,191 @@
                   <thead>
                     <tr>
 
-                      <th data-filterable="true" data-sortable="true" data-direction="desc">CSAP FY18Q1 AMS 1: Security</th>
-                      <th data-direction="asc" data-filterable="true" data-sortable="true">Marcos Cavinato</th>
-                      <th data-filterable="true" data-sortable="true">11/11/2018- 11/11/2018</th>
-                      <th data-filterable="false" class="hidden-xs hidden-sm">Actions</th>
+                      <th data-filterable="true" data-sortable="true" data-direction="desc"></th>
+                      <th data-direction="asc" data-filterable="true" data-sortable="true"></th>
+                      <th data-filterable="true" data-sortable="true"></th>
+                      <th data-filterable="false" class="hidden-xs hidden-sm"></th>
                       <th data-filterable="false" class="hidden-xs hidden-sm"> </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
 
-                      <td>Trident</td>
-                      <td>Internet
-                        Explorer 5.0
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
                       </td>
-                      <td>Win 95+</td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">5</td>
                       <td class="hidden-xs hidden-sm">C</td>
                     </tr>
                     <tr >
 
-                      <td>Trident</td>
-                      <td>Internet
-                        Explorer 5.5
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
                       </td>
-                      <td>Win 95+</td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">5.5</td>
                       <td class="hidden-xs hidden-sm">A</td>
                     </tr>
                     <tr >
 
-                      <td>Trident</td>
-                      <td>Internet
-                        Explorer 6
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
                       </td>
-                      <td>Win 98+</td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">6</td>
                       <td class="hidden-xs hidden-sm">A</td>
                     </tr>
                     <tr >
 
-                      <td>Trident</td>
-                      <td>Internet Explorer 7</td>
-                      <td>Win XP SP2+</td>
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
+                      </td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">7</td>
                       <td class="hidden-xs hidden-sm">A</td>
                     </tr>
                     <tr >
 
-                      <td>Trident</td>
-                      <td>AOL browser (AOL desktop)</td>
-                      <td>Win XP</td>
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
+                      </td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">6</td>
                       <td class="hidden-xs hidden-sm">A</td>
                     </tr>
                     <tr class="">
 
-                      <td>Misc</td>
-                      <td>NetFront 3.1</td>
-                      <td>Embedded devices</td>
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
+                      </td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">-</td>
                       <td class="hidden-xs hidden-sm">C</td>
                     </tr>
                     <tr class="">
 
-                      <td>Misc</td>
-                      <td>NetFront 3.4</td>
-                      <td>Embedded devices</td>
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
+                      </td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">-</td>
                       <td class="hidden-xs hidden-sm">A</td>
                     </tr>
                     <tr >
 
-                      <td>Gecko</td>
-                      <td>Firefox 2.0</td>
-                      <td>Win 98+ / OSX.2+</td>
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
+                      </td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">1.8</td>
                       <td class="hidden-xs hidden-sm">A</td>
                     </tr>
                     <tr >
 
-                      <td>Gecko</td>
-                      <td>Firefox 3.0</td>
-                      <td><div class="fa-hover col-lg-2 col-md-3 col-sm-4"><a href="#"><i class="fa fa-star"></i></a></td>
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
+                      </td>
+
+              <td><i class="fa fa-star-o" class style="font-size:36px"></i></td>
                       <td class="hidden-xs hidden-sm">1.9</td>
                       <td class="hidden-xs hidden-sm">A</td>
                     </tr>
                     <tr >
 
-                      <td>Gecko</td>
-                      <td>Camino 1.0</td>
-                      <td>OSX.2+</td>
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
+                      </td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">1.8</td>
                       <td class="hidden-xs hidden-sm">A</td>
                     </tr>
                     <tr >
 
-                      <td>Gecko</td>
-                      <td>Camino 1.5</td>
-                      <td>OSX.3+</td>
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
+                      </td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">1.8</td>
                       <td class="hidden-xs hidden-sm">A</td>
                     </tr>
                     <tr >
 
-                      <td>Gecko</td>
-                      <td>Netscape 7.2</td>
-                      <td>Win 95+ / Mac OS 8.6-9.2</td>
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
+                      </td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">1.7</td>
                       <td class="hidden-xs hidden-sm">A</td>
                     </tr>
                     <tr>
 
-                      <td>Presto</td>
-                      <td>Nokia N800</td>
-                      <td>N800</td>
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
+                      </td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">-</td>
-                      <td class="hidden-xs hidden-sm">A</td>
+                      <td class="hidden-xs hidden-sm"></div></td>
                     </tr>
                     <tr>
 
-                      <td>Presto</td>
-                      <td>Nintendo DS browser</td>
-                      <td>Nintendo DS</td>
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
+                      </td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">8.5</td>
                       <td class="hidden-xs hidden-sm">C/A</td>
                     </tr>
                     <tr>
 
-                      <td>KHTML</td>
-                      <td>Konqureror 3.1</td>
-                      <td>KDE 3.1</td>
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
+                      </td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">3.1</td>
                       <td class="hidden-xs hidden-sm">C</td>
                     </tr>
                     <tr>
 
-                      <td>KHTML</td>
-                      <td>Konqureror 3.3</td>
-                      <td>KDE 3.3</td>
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
+                      </td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">3.3</td>
                       <td class="hidden-xs hidden-sm">A</td>
                     </tr>
                     <tr class="">
 
-                      <td>Webkit</td>
-                      <td>Safari 1.2</td>
-                      <td>OSX.3</td>
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
+                      </td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">125.5</td>
                       <td class="hidden-xs hidden-sm">A</td>
                     </tr>
                     <tr class="">
 
-                      <td>Webkit</td>
-                      <td>Safari 1.3</td>
-                      <td>OSX.3</td>
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
+                      </td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">312.8</td>
                       <td class="hidden-xs hidden-sm">A</td>
                     </tr>
                     <tr class="">
 
-                      <td>Webkit</td>
-                      <td>Safari 2.0</td>
-                      <td>OSX.4+</td>
+                        <td></div></td>
+                                            <td></div>>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">419.3</td>
                       <td class="hidden-xs hidden-sm">A</td>
                     </tr>
                     <tr class="">
 
-                      <td>Webkit</td>
-                      <td>Safari 3.0</td>
-                      <td>OSX.4+</td>
+                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td>Marcos Cavinato
+                      </td>
+                      <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm">522.1</td>
                       <td class="hidden-xs hidden-sm">A</td>
                     </tr>
@@ -381,11 +395,7 @@
        <!-- /.col -->
 
 
-    </div> <!-- /.row -->
-
-  </div> <!-- /.container -->
-
-</footer>
+    </div>
 
   <script src="../js/libs/jquery-1.10.1.min.js"></script>
   <script src="../js/libs/jquery-ui-1.9.2.custom.min.js"></script>
@@ -404,7 +414,9 @@
   <!-- App JS -->
   <script src="../js/target-admin.js"></script>
 
-
+  <script type="text/javascript" src="../zjs/moment.js"></script>
+  	<script type="text/javascript" src="./js/moment-timezone-with-data.js"></script>
+  	<script type="text/javascript" src="./js/timer.js"></script>
 
 
 </body>
