@@ -25,7 +25,7 @@
   <!-- App CSS -->
   <link rel="stylesheet" href="../css/target-admin.css">
   <link rel="stylesheet" href="../css/custom.css">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -47,7 +47,7 @@
         <i class="fa fa-cogs"></i>
       </button>
 
-      <a class="navbar-brand navbar-brand-image" href="./index.html">
+      <a class="navbar-brand navbar-brand-image" href="./index.php">
         <img src="../img/cisco-logo.png">
       </a>
 
@@ -60,13 +60,12 @@
       <ul class="nav navbar-nav navbar-right">
 
         <li>
-          <a href="javascript:;">Dashboard</a>
+          <a href="../dashboard.php/">Dashboard</a>
         </li>
 
         <li>
-          <a href="javascript:;">Modules</a>
+          <a href="../modules.php/">Modules</a>
         </li>
-
         <li class="dropdown navbar-profile">
           <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:;">
             <img src="../img/avatars/avatar-1-xs.jpg" class="navbar-profile-avatar" alt="">
@@ -86,7 +85,7 @@
 
 
             <li>
-              <a href="./page-settings.html">
+              <a href="../settings.php">
                 <i class="fa fa-cogs"></i>
                 &nbsp;&nbsp;Settings
               </a>
@@ -95,7 +94,7 @@
             <li class="divider"></li>
 
             <li>
-              <a href="./account-login.html">
+              <a href="#">
                 <i class="fa fa-sign-out"></i>
                 &nbsp;&nbsp;Logout
               </a>
@@ -138,7 +137,40 @@
            </div>
 
 
+      <div class="col-md-12">
 
+
+        <div class="portlet">
+
+          <div class="portlet-header">
+
+            <h3>
+            Feedback System Explained
+            </h3>
+
+          </div> <!-- /.portlet-header -->
+
+          <div class="portlet-content" align="center">
+
+            <p class="popup" onclick="myFunction()"> <i class="fa fa-star" style="font-size: 76px"  ></i>
+              <span class="popuptext" id="myPopup">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.Integer molestie lorem at massa Integer molestie lorem at massa Integer molestie lorem at massa Integer molestie lorem at massa</span>
+            </p>
+            &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;
+            <p class="popup" onclick="myFunction()"> <i class="fas fa-clipboard-check" style="font-size:76px"  ></i>
+              <span class="popuptext" id="myPopup">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.Integer molestie lorem at massa Integer molestie lorem at massa Integer molestie lorem at massa Integer molestie lorem at massa</span>
+            </p>
+
+            &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;
+            <p class="popup" onclick="myFunction()"> <i class="fa fa-cog" align="center" style="font-size:76px"  ></i>
+              <span class="popuptext" id="myPopup">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.Integer molestie lorem at massa Integer molestie lorem at massa Integer molestie lorem at massa Integer molestie lorem at massa</span>
+            </p>
+
+          </div> <!-- /.portlet-content -->
+
+        </div> <!-- /.portlet -->
+
+
+      </div>
 
 
  <div class="row">
@@ -350,13 +382,19 @@
   </div> <!-- /.container -->
 
 </footer>
-
+  <script>
+    // When the user clicks on div, open the popup
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+  </script>
 <script src="../js/libs/jquery-1.10.1.min.js"></script>
 <script src="../js/libs/jquery-ui-1.9.2.custom.min.js"></script>
 <script src="../js/libs/bootstrap.min.js"></script>
 
 <!--[if lt IE 9]>
-<script src="./js/libs/excanvas.compiled.js"></script>
+<script src="../js/libs/excanvas.compiled.js"></script>
 <![endif]-->
 
 <!-- Plugin JS -->

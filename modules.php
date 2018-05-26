@@ -23,6 +23,7 @@
  <link rel="stylesheet" href="../css/target-admin.css">
  <link rel="stylesheet" href="../css/custom.css">
 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -43,7 +44,7 @@
         <i class="fa fa-cogs"></i>
       </button>
 
-      <a class="navbar-brand navbar-brand-image" href="./index.html">
+      <a class="navbar-brand navbar-brand-image" href="./index.php">
         <img src="../img/cisco-logo.png">
       </a>
 
@@ -56,11 +57,11 @@
       <ul class="nav navbar-nav navbar-right">
 
         <li>
-          <a href="../dashhboard.php">Dashboard</a>
+          <a href="../dashboard.php/">Dashboard</a>
         </li>
 
         <li>
-          <a href="./modules">Modules</a>
+          <a href="../modules.php/">Modules</a>
         </li>
 
         <li class="dropdown navbar-profile">
@@ -82,7 +83,7 @@
 
 
             <li>
-              <a href="#">
+              <a href="../settings.php/">
                 <i class="fa fa-cogs"></i>
                 &nbsp;&nbsp;Settings
               </a>
@@ -140,6 +141,12 @@
                 <i class="fa fa-table"></i>
                 Modules
               </h3>
+              <ul class="portlet-tools pull-right">
+
+                <li>
+                  <button type="button" class="btn btn-info">Create Module</button>
+                </li>
+              </ul>
 
             </div> <!-- /.portlet-header -->
 
@@ -168,185 +175,132 @@
                   </thead>
                   <tbody>
                     <tr>
-
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td><a href="../associates.php/">CSAP FY18Q1 AMS 1: Security</a> </td>
                       <td>Marcos Cavinato
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">5</td>
-                      <td class="hidden-xs hidden-sm">C</td>
+                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i> </td>
+                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr >
 
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td><a href="../associates.php/">CSAP FY18Q1 AMS 1: Security</a> </td>
                       <td>Marcos Cavinato
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">5.5</td>
-                      <td class="hidden-xs hidden-sm">A</td>
+                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
+                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr >
 
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td><a href="../associates.php/">CSAP FY18Q1 AMS 1: Security</a> </td>
                       <td>Marcos Cavinato
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">6</td>
-                      <td class="hidden-xs hidden-sm">A</td>
+                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
+                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr >
 
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td><a href="../associates.php/">CSAP FY18Q1 AMS 1: Security</a> </td>
                       <td>Marcos Cavinato
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">7</td>
-                      <td class="hidden-xs hidden-sm">A</td>
+                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
+                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr >
 
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td><a href="../associates.php/">CSAP FY18Q1 AMS 1: Security</a> </td>
                       <td>Marcos Cavinato
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">6</td>
-                      <td class="hidden-xs hidden-sm">A</td>
+                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
+                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr class="">
 
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td><a href="../associates.php/">CSAP FY18Q1 AMS 1: Security</a> </td>
                       <td>Marcos Cavinato
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">-</td>
-                      <td class="hidden-xs hidden-sm">C</td>
+                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
+                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr class="">
 
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td><a href="../associates.php/">CSAP FY18Q1 AMS 1: Security</a> </td>
                       <td>Marcos Cavinato
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">-</td>
-                      <td class="hidden-xs hidden-sm">A</td>
+                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
+                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr >
 
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td><a href="../associates.php/">CSAP FY18Q1 AMS 1: Security</a> </td>
                       <td>Marcos Cavinato
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">1.8</td>
-                      <td class="hidden-xs hidden-sm">A</td>
+                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
+                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr >
 
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td><a href="../associates.php/">CSAP FY18Q1 AMS 1: Security</a> </td>
                       <td>Marcos Cavinato
                       </td>
 
-              <td><i class="fa fa-star-o" class style="font-size:36px"></i></td>
-                      <td class="hidden-xs hidden-sm">1.9</td>
-                      <td class="hidden-xs hidden-sm">A</td>
+              <td>11/11/2018- 11/11/2018</td>
+                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
+                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr >
 
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
-                      <td>Marcos Cavinato
-                      </td>
-                      <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">1.8</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr >
-
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td><a href="../associates.php/">CSAP FY18Q1 AMS 1: Security</a> </td>
                       <td>Marcos Cavinato
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">1.8</td>
-                      <td class="hidden-xs hidden-sm">A</td>
+                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
+                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr >
 
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td><a href="../associates.php/">CSAP FY18Q1 AMS 1: Security</a> </td>
                       <td>Marcos Cavinato
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">1.7</td>
-                      <td class="hidden-xs hidden-sm">A</td>
+                      <td class="hidden-xs hidden-sm"><i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i> </td>
+                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
+                    </tr>
+                    <tr >
+
+                      <td><a href="../associates.php/">CSAP FY18Q1 AMS 1: Security</a> </td>
+                      <td>Marcos Cavinato
+                      </td>
+                      <td>11/11/2018- 11/11/2018</td>
+                      <td class="hidden-xs hidden-sm"><i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i> </td>
+                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr>
 
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td><a href="../associates.php/">CSAP FY18Q1 AMS 1: Security</a> </td>
                       <td>Marcos Cavinato
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">-</td>
-                      <td class="hidden-xs hidden-sm"></div></td>
+                      <td class="hidden-xs hidden-sm"><i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i> </td>
+                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr>
 
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
+                      <td><a href="../associates.php/">CSAP FY18Q1 AMS 1: Security</a> </td>add
                       <td>Marcos Cavinato
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">8.5</td>
-                      <td class="hidden-xs hidden-sm">C/A</td>
+                      <td class="hidden-xs hidden-sm"><i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i> </td>
+                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
-                    <tr>
 
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
-                      <td>Marcos Cavinato
-                      </td>
-                      <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">3.1</td>
-                      <td class="hidden-xs hidden-sm">C</td>
-                    </tr>
-                    <tr>
-
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
-                      <td>Marcos Cavinato
-                      </td>
-                      <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">3.3</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr class="">
-
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
-                      <td>Marcos Cavinato
-                      </td>
-                      <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">125.5</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr class="">
-
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
-                      <td>Marcos Cavinato
-                      </td>
-                      <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">312.8</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr class="">
-
-                        <td></div></td>
-                                            <td></div>>
-                      <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">419.3</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
-                    <tr class="">
-
-                      <td>CSAP FY18Q1 AMS 1: Security</td>
-                      <td>Marcos Cavinato
-                      </td>
-                      <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm">522.1</td>
-                      <td class="hidden-xs hidden-sm">A</td>
-                    </tr>
                   </tbody>
                 </table>
               </div> <!-- /.table-responsive -->
