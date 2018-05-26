@@ -197,7 +197,7 @@
                       <td>Marcos Cavinato
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
+                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:19px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
                       <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr >
@@ -206,7 +206,7 @@
                       <td>Marcos Cavinato
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
+                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:19px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
                       <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr >
@@ -215,7 +215,7 @@
                       <td>Marcos Cavinato
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
+                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:19px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
                       <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr class="">
@@ -224,7 +224,7 @@
                       <td>Marcos Cavinato
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
-                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
+                      <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:19px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
                       <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr class="">
