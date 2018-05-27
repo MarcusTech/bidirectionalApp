@@ -881,13 +881,13 @@ input[type="checkbox"] {
 }
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus {
-  color: #ffffff;
+  color: #369fd9;
   background-color: transparent;
 }
 .navbar .navbar-nav > .active > a,
 .navbar .navbar-nav > .active > a:hover,
 .navbar .navbar-nav > .active > a:focus {
-  color: #ffffff;
+  color: #369fd9;
   background-color: #080808;
 }
 .navbar .navbar-nav > .disabled > a,
@@ -918,7 +918,7 @@ input[type="checkbox"] {
 .navbar .navbar-nav > .open > a,
 .navbar .navbar-nav > .open > a:hover,
 .navbar .navbar-nav > .open > a:focus {
-  color: #ffffff;
+  color: #369fd9;
   background-color: #ffffff;
   background-color: #ffffff;
 }
@@ -926,7 +926,7 @@ input[type="checkbox"] {
   color: #999999;
 }
 .navbar .navbar-link:hover {
-  color: #ffffff;
+  color: #369fd9;
 }
 .navbar-brand {
   height: 60px;

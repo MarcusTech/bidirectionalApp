@@ -18,6 +18,9 @@
 
  <!-- Plugin CSS -->
  <link rel="stylesheet" href="../js/plugins/icheck/skins/minimal/blue.css">
+  <link rel="stylesheet" href="../js/plugins/morris/morris.css">
+  <link rel="stylesheet" href="../js/plugins/icheck/skins/minimal/blue.css">
+  <link rel="stylesheet" href="../js/plugins/select2/select2.css">
 
  <!-- App CSS -->
  <link rel="stylesheet" href="../css/target-admin.css">
@@ -126,7 +129,185 @@
 
 
  <!-- /.content-header -->
+      <div class="row">
 
+        <div class="col-md-12">
+
+          <div class="portlet">
+
+            <div class="portlet-header">
+
+              <h3>
+                <i class="fa fa-bar-chart-o"></i>
+                Performance Overview(MGMT)/ Current Module (Facilitator)
+              </h3>
+
+            </div> <!-- /.portlet-header -->
+
+            <div class="portlet-content">
+
+              <div class="pull-left">
+                <div class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-sm btn-default">
+                    <input type="radio" name="options" id="option1"> Day
+                  </label>
+                  <label class="btn btn-sm btn-default">
+                    <input type="radio" name="options" id="option2"> Week
+                  </label>
+                  <label class="btn btn-sm btn-default active">
+                    <input type="radio" name="options" id="option3"> Month
+                  </label>
+                </div>
+
+                &nbsp;
+
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+                    Custom Date
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="javascript:;">Year</a></li>
+                    <li><a href="javascript:;">Month</a></li>
+                  </ul>
+                </div>
+              </div> <!-- /.pull-left -->
+
+              <div class="pull-right">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+                    <i class="fa fa-cog"></i> &nbsp;&nbsp;<span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu pull-right" role="menu">
+                    <li><a href="javascript:;">Action</a></li>
+                    <li><a href="javascript:;">Another action</a></li>
+                    <li><a href="javascript:;">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="javascript:;">Separated link</a></li>
+                  </ul>
+                </div>
+              </div> <!-- /.pull-right -->
+
+              <div class="clear"></div>
+
+              <hr />
+
+
+              <div id="area-chart" class="chart-holder"></div> <!-- /#area-chart -->
+
+
+
+
+              <div class="table-responsive hide">
+                <table class="table table-striped">
+                  <thead>
+                  <tr>
+                    <th>Performance</th>
+                    <th class="text-right" style="width: 100px">Items</th>
+                    <th class="text-right" style="width: 100px">Amount</th>
+                    <th style="width: 130px"></th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>09/21/2013</td>
+                    <td class="text-right">3</td>
+                    <td class="text-right">$108.35</td>
+                    <td class="text-center">
+                      <a href="javascript:;" class="btn btn-xs btn-secondary">View</a>
+                      <a href="javascript:;" class="btn btn-xs btn-default">Edit</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>09/21/2013</td>
+                    <td class="text-right">1</td>
+                    <td class="text-right">$30.89</td>
+                    <td class="text-center">
+                      <a href="javascript:;" class="btn btn-xs btn-secondary">View</a>
+                      <a href="javascript:;" class="btn btn-xs btn-default">Edit</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>09/20/2013</td>
+                    <td class="text-right">2</td>
+                    <td class="text-right">$52.06</td>
+                    <td class="text-center">
+                      <a href="javascript:;" class="btn btn-xs btn-secondary">View</a>
+                      <a href="javascript:;" class="btn btn-xs btn-default">Edit</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>09/19/2013</td>
+                    <td class="text-right">4</td>
+                    <td class="text-right">$73.54</td>
+                    <td class="text-center">
+                      <a href="javascript:;" class="btn btn-xs btn-secondary">View</a>
+                      <a href="javascript:;" class="btn btn-xs btn-default">Edit</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>09/19/2013</td>
+                    <td class="text-right">4</td>
+                    <td class="text-right">$73.54</td>
+                    <td class="text-center">
+                      <a href="javascript:;" class="btn btn-xs btn-secondary">View</a>
+                      <a href="javascript:;" class="btn btn-xs btn-default">Edit</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>09/19/2013</td>
+                    <td class="text-right">4</td>
+                    <td class="text-right">$73.54</td>
+                    <td class="text-center">
+                      <a href="javascript:;" class="btn btn-xs btn-secondary">View</a>
+                      <a href="javascript:;" class="btn btn-xs btn-default">Edit</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>09/19/2013</td>
+                    <td class="text-right">4</td>
+                    <td class="text-right">$73.54</td>
+                    <td class="text-center">
+                      <a href="javascript:;" class="btn btn-xs btn-secondary">View</a>
+                      <a href="javascript:;" class="btn btn-xs btn-default">Edit</a>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div> <!-- /.table-responsive -->
+
+            </div> <!-- /.portlet-content -->
+
+          </div> <!-- /.portlet -->
+
+
+          <!-- /.portlet -->
+
+
+
+          <!-- /.portlet -->
+
+
+
+
+
+
+
+
+
+          <!-- /.portlet -->
+
+
+        </div> <!-- /.col --> <!-- /.row -->
+
+
+
+
+
+
+
+
+      </div> <!-- /.content-container -->
 
 
       <div class="row">
@@ -141,12 +322,7 @@
                 <i class="fa fa-table"></i>
                 Modules
               </h3>
-              <ul class="portlet-tools pull-right">
 
-                <li>
-                  <button type="button" class="btn btn-info">Create Module</button>
-                </li>
-              </ul>
 
             </div> <!-- /.portlet-header -->
 
@@ -293,7 +469,7 @@
                     </tr>
                     <tr>
 
-                      <td><a href="../associates.php/">CSAP FY18Q1 AMS 1: Security</a> </td>add
+                      <td><a href="../associates.php/">CSAP FY18Q1 AMS 1: Security</a> </td>
                       <td>Marcos Cavinato
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
@@ -371,6 +547,19 @@
   <script type="text/javascript" src="../zjs/moment.js"></script>
   	<script type="text/javascript" src="./js/moment-timezone-with-data.js"></script>
   	<script type="text/javascript" src="./js/timer.js"></script>
+
+
+
+    <script src="../js/libs/raphael-2.1.2.min.js"></script>
+    <script src="../js/plugins/morris/morris.min.js"></script>
+
+
+    <!-- App JS -->
+   
+
+    <!-- Plugin JS -->
+
+    <script src="../js/demos/charts/morris/area.js"></script>
 
 
 </body>

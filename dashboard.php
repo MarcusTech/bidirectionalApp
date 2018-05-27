@@ -76,7 +76,7 @@
           <ul class="dropdown-menu" role="menu">
 
             <li>
-              <a href="./page-profile.html">
+              <a href="../profile.php">
                 <i class="fa fa-user"></i>
                 &nbsp;&nbsp;My Profile
               </a>
