@@ -47,7 +47,7 @@
                 <i class="fa fa-cogs"></i>
             </button>
 
-            <a class="navbar-brand navbar-brand-image" href="./index.php">
+            <a class="navbar-brand navbar-brand-image" href="../index.php">
                 <img src="../img/cisco-logo.png">
             </a>
 
@@ -76,7 +76,7 @@
                     <ul class="dropdown-menu" role="menu">
 
                         <li>
-                            <a href="./page-profile.html">
+                            <a href="./profile.php/">
                                 <i class="fa fa-user"></i>
                                 &nbsp;&nbsp;My Profile
                             </a>
@@ -85,7 +85,7 @@
 
 
                         <li>
-                            <a href="../settings.php">
+                            <a href="../settings.php/">
                                 <i class="fa fa-cogs"></i>
                                 &nbsp;&nbsp;Settings
                             </a>
@@ -134,12 +134,18 @@
             <div class="thumbnail">
                 <div class="thumbnail-view">
 
-                    <img src="../img/photos/blur-sm.jpg" style="width: 100%" />
+                    <img src="../img/avatars/download.png" style="width: 100%" />
                 </div>
 
                 <div class="caption" align="center">
+<p>
+                  <button type="button" class="btn btn-warning btn-xs ">Rockstar! </button>
 
-                    <p><i class="fa fa-star" style="font-size:20px" ></i> &nbsp;   <i class="fas fa-clipboard-check" style="font-size:20px"> </i> &nbsp;   <i class="fa fa-cog" style="font-size:20px"  ></i></p>
+           <button type="button" class="btn btn-success btn-xs">On Track</button>
+
+
+          <button type="button" class="btn btn-danger btn-xs">Off Track</button>
+        </p>
                     <p><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></p>
                 </div>
             </div>  <!-- /.thumbnail -->
@@ -152,12 +158,18 @@
             <div class="thumbnail">
                 <div class="thumbnail-view">
 
-                    <img src="../img/photos/blur-sm.jpg" style="width: 100%" />
+                    <img src="../img/avatars/download.png" style="width: 100%" />
                 </div>
 
                 <div class="caption" align="center">
+<p>
+                  <button type="button" class="btn btn-warning btn-xs ">Rockstar! </button>
 
-                    <p><i class="fa fa-star" style="font-size:20px" ></i> &nbsp;   <i class="fas fa-clipboard-check" style="font-size:20px"> </i> &nbsp;   <i class="fa fa-cog" style="font-size:20px"  ></i></p>
+           <button type="button" class="btn btn-success btn-xs">On Track</button>
+
+
+          <button type="button" class="btn btn-danger btn-xs">Off Track</button>
+        </p>
                     <p><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></p>
                 </div>
             </div>  <!-- /.thumbnail -->
@@ -169,12 +181,18 @@
             <div class="thumbnail">
                 <div class="thumbnail-view">
 
-                    <img src="../img/photos/blur-sm.jpg" style="width: 100%" />
+                    <img src="../img/avatars/download.png" style="width: 100%" />
                 </div>
 
                 <div class="caption" align="center">
+<p>
+                  <button type="button" class="btn btn-warning btn-xs ">Rockstar! </button>
 
-                    <p><i class="fa fa-star" style="font-size:20px" ></i> &nbsp;   <i class="fas fa-clipboard-check" style="font-size:20px"> </i> &nbsp;   <i class="fa fa-cog" style="font-size:20px"  ></i></p>
+           <button type="button" class="btn btn-success btn-xs">On Track</button>
+
+
+          <button type="button" class="btn btn-danger btn-xs">Off Track</button>
+        </p>
                     <p><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></p>
                 </div>
             </div>  <!-- /.thumbnail -->
@@ -186,12 +204,18 @@
             <div class="thumbnail">
                 <div class="thumbnail-view">
 
-                    <img src="../img/photos/blur-sm.jpg" style="width: 100%" />
+                    <img src="../img/avatars/download.png" style="width: 100%" />
                 </div>
 
                 <div class="caption" align="center">
+<p>
+                  <button type="button" class="btn btn-warning btn-xs ">Rockstar! </button>
 
-                    <p><i class="fa fa-star" style="font-size:20px" ></i> &nbsp;   <i class="fas fa-clipboard-check" style="font-size:20px"> </i> &nbsp;   <i class="fa fa-cog" style="font-size:20px"  ></i></p>
+           <button type="button" class="btn btn-success btn-xs">On Track</button>
+
+
+          <button type="button" class="btn btn-danger btn-xs">Off Track</button>
+        </p>
                     <p><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></p>
                 </div>
             </div>  <!-- /.thumbnail -->
@@ -203,12 +227,18 @@
             <div class="thumbnail">
                 <div class="thumbnail-view">
 
-                    <img src="../img/photos/blur-sm.jpg" style="width: 100%" />
+                    <img src="../img/avatars/download.png" style="width: 100%" />
                 </div>
 
                 <div class="caption" align="center">
+  <p>
+                  <button type="button" class="btn btn-warning btn-xs ">Rockstar! </button>
 
-                    <p><i class="fa fa-star" style="font-size:20px" ></i> &nbsp;   <i class="fas fa-clipboard-check" style="font-size:20px"> </i> &nbsp;   <i class="fa fa-cog" style="font-size:20px"  ></i></p>
+           <button type="button" class="btn btn-success btn-xs">On Track</button>
+
+
+          <button type="button" class="btn btn-danger btn-xs">Off Track</button>
+        </p>
                     <p><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></p>
                 </div>
             </div>  <!-- /.thumbnail -->
@@ -220,12 +250,18 @@
             <div class="thumbnail">
                 <div class="thumbnail-view">
 
-                    <img src="../img/photos/blur-sm.jpg" style="width: 100%" />
+                    <img src="../img/avatars/download.png" style="width: 100%" />
                 </div>
 
                 <div class="caption" align="center">
+<p>
+                  <button type="button" class="btn btn-warning btn-xs ">Rockstar! </button>
 
-                    <p><i class="fa fa-star" style="font-size:20px" ></i> &nbsp;   <i class="fas fa-clipboard-check" style="font-size:20px"> </i> &nbsp;   <i class="fa fa-cog" style="font-size:20px"  ></i></p>
+           <button type="button" class="btn btn-success btn-xs">On Track</button>
+
+
+          <button type="button" class="btn btn-danger btn-xs">Off Track</button>
+        </p>
                     <p><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></p>
                 </div>
             </div>  <!-- /.thumbnail -->
@@ -237,12 +273,18 @@
             <div class="thumbnail">
                 <div class="thumbnail-view">
 
-                    <img src="../img/photos/blur-sm.jpg" style="width: 100%" />
+                  <img src="../img/avatars/download.png" style="width: 100%" />
                 </div>
 
                 <div class="caption" align="center">
+  <p>
+                  <button type="button" class="btn btn-warning btn-xs ">Rockstar! </button>
 
-                    <p><i class="fa fa-star" style="font-size:20px" ></i> &nbsp;   <i class="fas fa-clipboard-check" style="font-size:20px"> </i> &nbsp;   <i class="fa fa-cog" style="font-size:20px"  ></i></p>
+           <button type="button" class="btn btn-success btn-xs">On Track</button>
+
+
+          <button type="button" class="btn btn-danger btn-xs">Off Track</button>
+        </p>
                     <p><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></p>
                 </div>
             </div>  <!-- /.thumbnail -->
@@ -254,12 +296,18 @@
             <div class="thumbnail">
                 <div class="thumbnail-view">
 
-                    <img src="../img/photos/blur-sm.jpg" style="width: 100%" />
+                    <img src="../img/avatars/download.png" style="width: 100%" />
                 </div>
 
                 <div class="caption" align="center">
+<p>
+                  <button type="button" class="btn btn-warning btn-xs ">Rockstar! </button>
 
-                    <p><i class="fa fa-star" style="font-size:20px" ></i> &nbsp;   <i class="fas fa-clipboard-check" style="font-size:20px"> </i> &nbsp;   <i class="fa fa-cog" style="font-size:20px"  ></i></p>
+           <button type="button" class="btn btn-success btn-xs">On Track</button>
+
+
+          <button type="button" class="btn btn-danger btn-xs">Off Track</button>
+        </p>
                     <p><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></p>
                 </div>
             </div>  <!-- /.thumbnail -->

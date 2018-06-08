@@ -77,7 +77,7 @@
           <ul class="dropdown-menu" role="menu">
 
             <li>
-              <a href="#">
+              <a href="../profile.php/">
                 <i class="fa fa-user"></i>
                 &nbsp;&nbsp;My Profile
               </a>
@@ -555,7 +555,7 @@
 
 
     <!-- App JS -->
-   
+
 
     <!-- Plugin JS -->
 

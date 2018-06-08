@@ -80,7 +80,7 @@
 
 
                         <li>
-                            <a href="../settings.php">
+                            <a href="../settings.php/">
                                 <i class="fa fa-cogs"></i>
                                 &nbsp;&nbsp;Settings
                             </a>
@@ -162,7 +162,7 @@
 
                             <br />
 
-                            <form action="./page-settings.html" class="form-horizontal">
+                            <form action="#" class="form-horizontal">
 
                                 <div class="form-group">
 
@@ -170,7 +170,7 @@
 
                                     <div class="col-md-7">
                                         <div class="fileupload fileupload-new" data-provides="fileupload">
-                                            <div class="fileupload-new thumbnail" style="width: 180px; height: 180px;"><img src="./img/avatars/avatar-large-1.jpg" alt="Profile Avatar" /></div>
+                                            <div class="fileupload-new thumbnail" style="width: 180px; height: 180px;"><img src="../img/avatars/download.png" alt="Profile Avatar" /></div>
                                             <div class="fileupload-preview fileupload-exists thumbnail" style="max-width: 200px; max-height: 200px; line-height: 20px;"></div>
                                             <div>
                                                 <span class="btn btn-default btn-file"><span class="fileupload-new">Select image</span><span class="fileupload-exists">Change</span><input type="file" /></span>
@@ -380,48 +380,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

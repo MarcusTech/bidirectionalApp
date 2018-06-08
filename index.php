@@ -39,7 +39,7 @@
 
       <h5 class="account-body-subtitle">SIGN IN</h5>
 
-      <form class="form account-form" method="POST" action="./modules.php/">
+      <form class="form account-form" method="POST" action="./dashboard.php/">
 
         <div class="form-group">
           <label for="login-username" class="placeholder-hidden">Username</label>
@@ -66,7 +66,7 @@
 
         <div class="form-group">
           <button type="submit" class="btn btn-primary btn-block btn-lg" tabindex="4">
-            Signin &nbsp; <i class="fa fa-play-circle"></i>
+            Sign In &nbsp; <i class="fa fa-play-circle"></i>
           </button>
         </div> <!-- /.form-group -->
 

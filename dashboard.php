@@ -76,7 +76,7 @@
           <ul class="dropdown-menu" role="menu">
 
             <li>
-              <a href="../profile.php">
+              <a href="../profile.php/">
                 <i class="fa fa-user"></i>
                 &nbsp;&nbsp;My Profile
               </a>
@@ -85,7 +85,7 @@
 
 
             <li>
-              <a href="../settings.php">
+              <a href="../settings.php/">
                 <i class="fa fa-cogs"></i>
                 &nbsp;&nbsp;Settings
               </a>
