@@ -124,7 +124,7 @@
 
 
 
-    <h4 class="heading">Module: CSAP FY18Q1 |: Security</h4>
+    <h4 class="heading">EMEAR CLASS:  <button type="button" class="btn btn-success btn-xs">On Track</button> <button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></h4>
 
 
     <div class="row">
