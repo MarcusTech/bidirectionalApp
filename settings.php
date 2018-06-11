@@ -61,6 +61,13 @@
                 <li>
                     <a href="../modules.php/">Modules</a>
                 </li>
+
+                <li>
+                  <a href="../manager.php/">Modules(Manager)</a>
+                </li>
+                <li>
+                  <a href="../admin.php/">Modules(admin)</a>
+                </li>
                 <li class="dropdown navbar-profile">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:;">
                         <img src="../img/avatars/avatar-1-xs.jpg" class="navbar-profile-avatar" alt="">
@@ -71,7 +78,7 @@
                     <ul class="dropdown-menu" role="menu">
 
                         <li>
-                            <a href="./page-profile.html">
+                            <a href="../profile.php/">
                                 <i class="fa fa-user"></i>
                                 &nbsp;&nbsp;My Profile
                             </a>

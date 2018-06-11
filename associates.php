@@ -62,7 +62,12 @@
                 <li>
                     <a href="../dashboard.php/">Dashboard</a>
                 </li>
-
+                <li>
+                  <a href="../manager.php/">Modules(manager)</a>
+                </li>
+                <li>
+                  <a href="../admin.php/">Modules(admin)</a>
+                </li>
                 <li>
                     <a href="../modules.php/">Modules</a>
                 </li>
