@@ -3237,3 +3237,16 @@ ul.support-list li {
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+.hide1{
+  display:none;
+}
+.show1{
+  display:block;
+}
+
+.hide{
+  display:none;
+}
+.show{
+  display:block;
+}

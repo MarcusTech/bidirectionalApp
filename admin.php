@@ -368,7 +368,10 @@
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i> </td>
-                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
+                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs" onclick="onButtonClick()" >Optional Feedback</button>
+                          <input class="hide" type="text" id="textInput" value="Optional Feedback" />
+                          <button type="button" class="btn btn-default btn-xs" >Submit</button>
+                      </td>
                     </tr>
                     <tr >
 
@@ -377,7 +380,7 @@
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:20px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
-                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
+                        <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr >
 
@@ -386,7 +389,7 @@
                       </td>
                       <td>11/11/2018- 11/11/2018</td>
                       <td class="hidden-xs hidden-sm"> <i class="fa fa-star" style="font-size:19px" ></i> <i class="fas fa-clipboard-check" style="font-size:20px"  > <i class="fa fa-cog" style="font-size:20px"  ></i></td>
-                      <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
+                        <td class="hidden-xs hidden-sm"><button type="button" class="btn btn-primary btn-xs">Optional Feedback</button></td>
                     </tr>
                     <tr >
 
@@ -538,6 +541,12 @@
 
 
     </div>
+
+      <script>
+          function onButtonClick(){
+              document.getElementById('textInput').className="show";
+          }
+      </script>
 
   <script src="../js/libs/jquery-1.10.1.min.js"></script>
   <script src="../js/libs/jquery-ui-1.9.2.custom.min.js"></script>
